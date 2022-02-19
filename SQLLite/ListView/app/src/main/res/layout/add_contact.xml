@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textColor="#483d8b"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Thêm danh bạ" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="hideKeyBoard"
+        android:id="@+id/formEditRoom"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:orientation="vertical">
+        <TextView
+            android:text="Tên:"
+            android:paddingLeft="3dp"
+            android:textSize="18dp"
+            android:textColor="#160140"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/edtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:inputType="text"
+            android:textColor="#2E2B2B"
+            android:hint=""
+            />
+        <TextView
+            android:text="SDT:"
+            android:paddingLeft="3dp"
+            android:textSize="18dp"
+            android:textColor="#160140"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/edtPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:textColor="#2E2B2B"
+            android:inputType="number"
+            android:hint=""
+            />
+
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:paddingBottom="10dp"
+        android:gravity="center"
+        android:paddingLeft="90dp"
+        android:paddingRight="90dp"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:textColor="#FFFFFF"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:id="@+id/btnAddContact"
+            android:text="Thêm" />
+    </RelativeLayout>
+
+</LinearLayout>

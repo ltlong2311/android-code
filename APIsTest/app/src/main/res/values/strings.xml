@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">APIsTest</string>
+    <string name="back">back</string>
+    <string name="touch">touch</string>
+    <string name="key">key</string>
+    <string name="input">input</string>
+    <string name="three_dots">...</string>
+    <string name="test8">Test8</string>
+    <string name="sound1">sound1</string>
+    <string name="sound2">sound2</string>
+</resources>

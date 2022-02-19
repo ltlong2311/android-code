@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@drawable/ltl"
+        android:layout_marginBottom="40dp"
+        android:gravity="center_horizontal"
+        android:text=""
+        android:textColor="#CFD7D8"
+        android:paddingVertical="70dp"
+        android:textSize="30sp"
+        android:fontFamily="cursive"
+        />
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tác giả: Lê Thành Long"
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lớp: CT2B"
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mã SV: CT020229"
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Học viện kỹ thuật mật mã"
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="back"
+        android:id="@+id/button_back"
+        android:layout_marginTop="30dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="25dp"
+        android:textColor="#fafafa"
+        />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SensorApp</string>
+    <string name="use_your_finger">Use your finger</string>
+    <string name="s_d_ng_v_n_tay">Sử dụng vân tay</string>
+    <string name="finger">finger</string>
+    <string name="login">Login</string>
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+    <ImageView
+        android:id="@+id/imageView_music"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/music"
+        app:tint="#1240CC"
+        android:contentDescription="@string/no" />
+
+    <TextView
+        android:id="@+id/textViewSongs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bai_hat_1"
+        android:layout_marginLeft="50dp"
+        android:textColor="#1240CC"
+        android:textSize="16sp"
+        android:layout_marginStart="50dp"
+        tools:ignore="RelativeOverlap" />
+
+    <TextView
+        android:id="@+id/textViewArtist"
+        android:layout_below="@+id/textViewSongs"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/csc"
+        android:textColor="#00897B"
+        android:textSize="16sp"
+        android:layout_marginStart="50dp" />
+    <ImageView
+        android:id="@+id/imageViewPlay"
+        android:layout_marginTop="7dp"
+        android:layout_marginRight="80dp"
+        android:layout_alignParentRight="true"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/play0"
+        tools:ignore="RtlHardcoded"
+        android:contentDescription="@string/no" />
+    <ImageView
+        android:id="@+id/imageViewStop"
+        android:layout_marginTop="-2dp"
+        android:layout_marginRight="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/stop"
+        android:contentDescription="@string/no"
+        android:layout_marginEnd="5dp"
+        tools:ignore="RtlHardcoded" />
+</RelativeLayout>

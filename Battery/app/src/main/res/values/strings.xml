@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Battery - Nhóm 6</string>
+    <string name="none">...</string>
+    <string name="show_network">showNetwork</string>
+</resources>

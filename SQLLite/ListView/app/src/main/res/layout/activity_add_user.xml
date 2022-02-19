@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddUser">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="hideKeyBoard"
+            android:id="@+id/formEditRoom"
+            android:paddingTop="30dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:orientation="vertical">
+            <TextView
+                android:text="Tên:"
+                android:paddingLeft="3dp"
+                android:textSize="18dp"
+                android:textColor="#160140"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/edtTen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:inputType="text"
+                android:textColor="#2E2B2B"
+                android:hint=""
+                />
+            <TextView
+                android:text="SDT:"
+                android:paddingLeft="3dp"
+                android:textSize="18dp"
+                android:textColor="#160140"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:id="@+id/edtSDT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:textColor="#2E2B2B"
+                android:inputType="text"
+                android:hint=""
+                />
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:paddingLeft="35dp"
+            android:paddingRight="35dp"
+            android:layout_below="@+id/formEditRoom"
+            >
+            <Button
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:textColor="#F4EDED"
+                android:layout_alignParentLeft="true"
+                android:textStyle="bold"
+                android:layout_gravity="bottom"
+                android:gravity="center"
+                android:id="@+id/btn_update_room"
+                android:text="Tạo mới" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

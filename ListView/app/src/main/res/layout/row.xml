@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="5dp"
+        android:src="@color/teal_200"
+        android:id="@+id/image"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Tên"
+            android:padding="20dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_margin="5dp"
+            android:textSize="18sp"
+            android:id="@+id/textViewName"/>
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:text="Detail"
+            android:textSize="12sp"
+            android:id="@+id/button_detail"
+            android:background="#2D7680"
+            android:layout_alignParentRight="true"
+            android:textColor="#fafafa"
+            />
+
+    </LinearLayout>
+</LinearLayout>
